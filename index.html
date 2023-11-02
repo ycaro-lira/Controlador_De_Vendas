@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Controle de Vendas</title>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Controle de Vendas</h1>
+        <div class="sales-goal">
+            <h2>Meta Diária de Vendas</h2>
+            <input type="number" id="salesGoal" placeholder="Defina a Meta Diária de Vendas" required>
+            <canvas id="salesGoalChart"></canvas>
+        </div>
+        <div class="expense-form">
+            <h2>Registre suas Vendas</h2>
+            <input type="number" id="salesAmount" placeholder="Valor da Venda" required>
+            <button id="addSale">Registrar Venda</button>
+        </div>
+        <div class="chart">
+            <h2>Gráfico de Vendas</h2>
+            <canvas id="salesChart"></canvas>
+        </div>
+        <div class="info">
+            <h2>Resumo Financeiro</h2>
+            <p>Total de Vendas: <span id="totalExpenses">R$0</span></p>
+            <p>Saldo Restante para bater a meta: <span id="remainingBalance">R$0</span></p>
+            <h3>Detalhes das Vendas</h3>
+            <ul id="expenseDetails"></ul>
+            <h3>Detalhes da Meta</h3>
+            <ul id="salesDetails"></ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
