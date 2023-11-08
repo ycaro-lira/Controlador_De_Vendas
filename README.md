@@ -24,3 +24,5 @@ Quando você atingir a meta diária de vendas, uma mensagem de parabéns será e
 
 Reconhecimentos
 Este projeto utiliza a biblioteca Chart.js para criar gráficos.
+
+Vídeo da apresentação do projeto: https://www.linkedin.com/posts/ycaro-lira-27ab41289_desenvolvedorweb-programaaexaeto-activity-7127984189047463937-xoiU?utm_source=share&utm_medium=member_desktop
